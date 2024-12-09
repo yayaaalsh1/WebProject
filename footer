@@ -1,0 +1,38 @@
+<footer>
+    
+      <div>
+        <h2>Contact Us</h2>
+        <p>Email:  Cinema reservation@gmail.com</p>
+      </div>
+      
+ <div>
+        <h2>Follow us</h2>
+        
+        <ul>
+          <li><a href="https://x.com/" target="_Blank"> 
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          </li>
+          
+      <li><a href="https://www.facebook.com/" target="_Blank">
+      <i class="fa-brands fa-facebook-f"></i>
+      </a>
+      </li>
+          
+          <li><a href="https://www.instagram.com/" target="_Blank"> 
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          </li>
+          
+        </ul>
+  </div> 
+      
+      
+      <div>
+        <p>&copy; 2024 Cinema reservation. All rights reserved.</p>
+      </div>
+      <a href="#">
+        <i class="fa-solid fa-circle-chevron-up"></i> <!--Back to top-->
+      </a>
+      
+    </footer>
