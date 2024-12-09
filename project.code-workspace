@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "yaya/yaya2"
+		},
+		{
+			"path": "yaya/project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project"
+	}
+}
