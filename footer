@@ -1,3 +1,126 @@
+footer {
+      background-color: #3f3244; 
+      color: #14746f; 
+      padding: 40px 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    
+    footer div {
+      flex: 1 1 300px;
+      margin: 10px;
+    }
+    
+    footer h2 {
+      color: #f2e9e4; 
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    
+    footer p {
+      color: #14746f; 
+      font-size: 1em;
+      margin: 5px 0;
+    }
+    
+    
+    footer ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+    }
+    
+    footer ul li {
+      display: inline-block;
+    }
+    
+    footer ul li a {
+      color: #14746f; 
+      font-size: 1.5em;
+      transition: color 0.3s;
+    }
+    
+    footer ul li a:hover {
+      color: #14746f; 
+    }
+    
+    
+    footer div p {
+      font-size: 0.9em;
+      color: #c9ada7; 
+    }
+    
+    
+    footer a {
+      display: inline-block;
+      color: #14746f;
+      font-size: 2em;
+      margin-top: 20px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    
+    footer a:hover {
+      color: #9a8c98; 
+    }
+    
+    p:hover,h2:hover{
+      color: #14746f;
+      
+    }
+    @media (max-width: 768px) {
+      footer {
+        flex-direction: column;
+        text-align: center;
+      }
+      
+      footer div {
+        flex: 1 1 100%;
+      }
+      
+      .back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        color: #f2e9e4;
+        font-size: 2em;
+        text-decoration: none;
+        transition: color 0.3s;
+        padding: 10px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+      }
+      
+      .back-to-top:hover {
+        color: #9a8c98;
+        background-color: #4a4e69;
+      }
+
+  </style>
+
+
+<footer>
+...
+
+
+
+
+
+
+
+
+
+
+
+
+
 <footer>
     
       <div>
