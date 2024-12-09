@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+  
+  <title> Cinema reservation page </title>
+  
+  <style>
+    
+    
+    /* CSS */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #F2E9E4; 
+      color: #FAF0E6; 
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #3f3244; 
+      color: #14746f; 
+      padding: 2rem;
+      position: relative;
+      font-size: 40px;
+      justify-content: space-around; 
+      align-items: center;
+      position: static;
+      top: 0;
+      z-index: 1000;
+      text-align: left;
+    }
+
+    
+    .search-container {
+      position: absolute;
+      top: 18px;
+      right: 15px;
+      margin-left: 10px;
+    }
+
+    input[type="text"] {
+      padding: 0.5rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      border: none;
+      width: 200px;
+      transition: width 0.2s ease;
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="text"]:focus {
+      width: 250px;
+      outline: none;
+    }
+
+
+</head>
+<body>
+  <header>
+    <h1> - Cinema Reservation - </h1>
+  
+    <div class="search-container">
+      <input type="text" placeholder="Search a movie..."  id="searchInput"  onkeyup="searchMovies()">
+    </div>
+  </header>
